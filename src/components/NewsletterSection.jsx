@@ -36,7 +36,7 @@ function NewsletterSection() {
               loading="lazy"
               src={EmailPicture}
               alt="Newsletter illustration"
-              className="object-contain w-full max-w-sm"
+              className="object-contain w-full max-w-sm max-sm:hidden"
             />
           </div>
         </div>

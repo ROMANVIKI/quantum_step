@@ -15,7 +15,7 @@ export function LampDemo() {
           ease: "easeInOut",
         }}
         className="mt-2 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
-        Illuminate Your IT Future with  <br /> with QuantumStep
+        Illuminate Your IT Future   <br /> with QuantumStep
       </motion.h1>
     </LampContainer>)
   );

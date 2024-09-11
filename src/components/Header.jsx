@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import NavItem from "./NavItem";
-import { FloatingNav } from "./ui/floating-navbar";
 
 const navItems = [
   { label: "Courses", href: "#" },
@@ -41,7 +40,7 @@ function Header() {
             </svg>
           </button>
         </div>
-        <nav className={`lg:flex lg:gap-6 lg:items-center ${isOpen ? 'block' : 'hidden'} lg:block`}>
+        <nav className={`hidden lg:flex lg:gap-6 lg:items-center ${isOpen ? 'block' : 'hidden'}`}>
           <div className="flex flex-col lg:flex-row lg:items-center lg:gap-6">
             {navItems.map((item, index) => (
               <NavItem
@@ -62,7 +61,7 @@ function Header() {
       {isOpen && (
         <div className="lg:hidden bg-white shadow-md fixed inset-x-0 top-16 py-4 px-6">
           <div className="flex flex-col gap-4">
-            <button
+            {/* <button
               onClick={closeMenu}
               className="self-end text-gray-500 hover:text-gray-700 focus:outline-none"
             >
@@ -80,7 +79,7 @@ function Header() {
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
-            </button>
+            </button> */}
             {navItems.map((item, index) => (
               <NavItem
                 key={index}
@@ -97,7 +96,6 @@ function Header() {
           </div>
         </div>
       )}
-
     </header>
   );
 }
