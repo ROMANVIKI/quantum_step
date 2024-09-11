@@ -1,4 +1,5 @@
 import React from "react";
+import EmailPicture from '../assets/email.png'
 
 function NewsletterSection() {
   return (
@@ -30,10 +31,10 @@ function NewsletterSection() {
               </button>
             </form>
           </div>
-          <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+          <div className="w-full md:w-1/4 flex justify-center md:justify-end">
             <img
               loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/db6c7acabce1fabafb33a0a92b27217aad9b1918c9e9cbe17a1d6407a30b6109?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
+              src={EmailPicture}
               alt="Newsletter illustration"
               className="object-contain w-full max-w-sm"
             />
