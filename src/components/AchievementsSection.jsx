@@ -55,7 +55,7 @@ function AchievementsSection() {
   return (
     <animated.section
       style={fadeProps}
-      className="flex flex-col items-center px-5 py-10 mt-10 md:px-10 md:py-14 lg:px-20 lg:py-20 bg-white"
+      className="flex flex-col items-center px-5 py-2 mt-2 md:px-10 md:py-14 lg:px-20 lg:py-20 bg-white"
     >
       <div className="flex flex-col items-center w-full max-w-screen-xl">
         <h2 className="text-3xl md:text-4xl font-bold leading-tight text-center text-neutral-800 mb-6 md:mb-10">

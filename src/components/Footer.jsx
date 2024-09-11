@@ -8,7 +8,7 @@ function Footer() {
           {/* Column 1 */}
           <div className="flex flex-col space-y-4">
             <div className="font-bold text-xl mb-4">
-              <span>QauntumStep</span>
+              <span>TOKAZ</span>
             </div>
             <nav>
               <ul className="space-y-2">

@@ -24,9 +24,9 @@ const offerings = [
 
 function OfferingsSection() {
   return (
-    <section className="flex flex-col items-center mt-12 px-4 max-w-screen-xl mx-auto">
+    <section className="flex flex-col items-center mt-10 px-4 max-w-screen-xl mx-auto">
       <h2 className="text-3xl font-bold leading-tight text-gray-900 mb-8">
-        What QuantumStep offers you?
+        What TOKAZ offers you?
       </h2>
       <div className="w-full flex flex-col md:flex-row gap-6">
         <div className="flex-1 flex flex-col gap-6">
@@ -50,7 +50,7 @@ function OfferingsSection() {
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/b28fc56203300912f0d3878efa98702f3f402299de0d92648b7aa622671c21df?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
-            alt="QuantumStep offerings illustration"
+            alt="TOKAZ offerings illustration"
             className="w-full h-auto max-w-sm object-contain"
           />
         </div>

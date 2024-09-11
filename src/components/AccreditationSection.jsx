@@ -27,7 +27,7 @@ function AccreditationSection() {
                 />
                 <div className="ml-4">
                   <h3 className="text-lg font-bold">Dobby</h3>
-                  <p className="text-sm">QuantumStep Assistant</p>
+                  <p className="text-sm">TOKAZ Assistant</p>
                 </div>
               </div>
               <div className="bg-stone-50 p-6 rounded-2xl shadow-md">

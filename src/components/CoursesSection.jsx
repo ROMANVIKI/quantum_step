@@ -4,20 +4,20 @@ import CourseCard from "./CourseCard";
 
 const courses = [
   {
-    type: "Free",
-    title: "JDBC",
-    language: "Hindi",
-    enrolled: 2002,
+    type: "Premium",
+    title: "Python",
+    language: "Tamil",
+    enrolled: 10,
     languageIcon:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/b23f549c14728c4b4b2ecc2628411e727e514d66986d7db62d73ec5b4a02e1d1?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13",
     enrolledIcon:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/91eaf9b8b4f6ff72ae32da7ff465f3c02038c9a0ae1f9f82f789d2f2415a2583?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13",
   },
   {
-    type: "Free",
+    type: "Premium",
     title: "SQL",
     language: "Tamil",
-    enrolled: 2014,
+    enrolled: 30,
     languageIcon:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/4b04bdd62fef75eebcb941081d3d8ac08fca496a7fc2c814f7a363620a008578?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13",
     enrolledIcon:
@@ -25,10 +25,10 @@ const courses = [
   },
 
   {
-    type: "Free",
+    type: "Premium",
     title: "Sqlite",
     language: "Tamil",
-    enrolled: 2005,
+    enrolled: 16,
     languageIcon:
       "https://cdn.builder.io/api/v1/image/assets/TEMP/4b04bdd62fef75eebcb941081d3d8ac08fca496a7fc2c814f7a363620a008578?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13",
     enrolledIcon:
@@ -47,7 +47,7 @@ function CoursesSection() {
   });
 
   return (
-    <section className="flex flex-col items-center px-6 py-20 mt-24 w-full bg-white max-md:px-5 max-md:mt-10">
+    <section className="flex flex-col items-center px-6 py-10 mt-20 w-full bg-white max-md:px-5 max-md:mt-10">
       <animated.h2 style={fadeIn} className="text-3xl font-bold leading-tight text-center text-neutral-800 mb-4">
         Learn Tech from Latest Courses
       </animated.h2>
@@ -62,7 +62,7 @@ function CoursesSection() {
       <div className="flex gap-2 mt-8 justify-center w-full">
         {/* Pagination dots can be added here */}
       </div>
-      <button className="px-6 py-3 mt-14 text-base text-center text-white bg-indigo-600 rounded border border-indigo-600 border-solid w-full max-w-xs max-md:mt-10">
+      <button className="px-6 py-3 mt-8 text-base text-center text-white bg-indigo-600 rounded border border-indigo-600 border-solid w-full max-w-xs max-md:mt-10">
         Explore Courses
       </button>
     </section>

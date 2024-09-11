@@ -18,7 +18,7 @@ function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50 py-4 px-6">
       <div className="flex flex-wrap justify-between items-center w-full max-w-screen-xl mx-auto text-base text-gray-500">
-        <p className="text-2xl font-bold text-blue-600">QuantumStep</p>
+        <p className="text-2xl font-bold text-blue-600">TOKAZ</p>
         <div className="block lg:hidden">
           <button
             onClick={toggleMenu}

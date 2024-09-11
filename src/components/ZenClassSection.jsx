@@ -44,7 +44,7 @@ function ZenClassSection() {
   });
 
   return (
-    <section className="flex flex-col items-center px-6 py-20 mt-24 max-w-full bg-gray-100 max-md:px-5 max-md:mt-10">
+    <section className="flex flex-col items-center px-6 py-10 mt-10 max-w-full bg-gray-100 max-md:px-5 max-md:mt-10">
       <animated.div style={fadeIn} className="flex flex-col items-center text-center">
         <h2 className="text-4xl font-extrabold leading-tight text-neutral-800 mb-4">
           ZEN CLASS

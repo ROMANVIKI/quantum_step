@@ -39,7 +39,7 @@ function CorporateSolutionsSection() {
       className="flex flex-col items-center mt-20 px-5 max-w-full md:px-10 lg:px-20"
     >
       <h2 className="text-4xl font-extrabold leading-tight text-center text-neutral-800 mb-4">
-        QuantumStep for Corporates
+        TOKAZ for Corporates
       </h2>
       <p className="text-lg text-center text-neutral-600 mb-8 max-w-3xl">
         Explore our customized corporate solutions for your company!

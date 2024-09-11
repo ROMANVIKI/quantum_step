@@ -38,8 +38,9 @@ function HomePage() {
         </div>
       </div>
       <HeroSection />
+      {/* <AccreditationSection /> */}
       <AboutSection />
-      <AwardsSection />
+      {/* <AwardsSection /> */}
       <OfferingsSection />
       <CoursesSection />
       {/* <LearnPracticeEarnSection /> */}

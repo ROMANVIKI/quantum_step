@@ -8,7 +8,7 @@ const fadeIn = {
 
 const TestimonialsSection = () => {
   return (
-    <section className="mt-20 mb-10 px-4 max-w-7xl mx-auto">
+    <section className="mt-10 mb-10 px-4 max-w-7xl mx-auto">
       <h2 className="text-4xl font-bold leading-tight text-center text-indigo-800 mb-4">
         Discover What Sets Us Apart!
       </h2>
