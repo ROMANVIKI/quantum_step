@@ -14,8 +14,8 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-2 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
-        Illuminate Your IT Future   <br /> with QuantumStep
+        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-2 max-sm:py-[0.2rem] bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+        Illuminate Your IT Future<br /> with QuantumStep
       </motion.h1>
     </LampContainer>)
   );
@@ -28,7 +28,7 @@ export const LampContainer = ({
   return (
     (<div
       className={cn(
-        "relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
+        "relative  flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950 w-full rounded-md z-0",
         className
       )}>
       <div
