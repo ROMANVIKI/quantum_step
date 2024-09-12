@@ -46,7 +46,7 @@ function ZenClassSection() {
 
   return (
     <section className="flex flex-col items-center px-6 py-10 mt-10 max-w-full bg-gray-100 max-md:px-4 max-md:py-8 max-md:mt-6">
-      <animated.div style={fadeIn} className="flex flex-col items-center text-center">
+      {/* <animated.div style={fadeIn} className="flex flex-col items-center text-center">
         <h2 className="text-4xl font-extrabold leading-tight text-neutral-800 mb-4 max-md:text-3xl">
           ZEN CLASS
         </h2>
@@ -61,7 +61,7 @@ function ZenClassSection() {
             Live Classes + Placement Guidance
           </p>
         </div>
-      </animated.div>
+      </animated.div> */}
       <div className="flex flex-wrap gap-2 justify-center mt-8 max-md:mt-6 max-md:flex-col max-md:gap-4">
         {zenClasses.map((zenClass, index) => (
           <animated.div

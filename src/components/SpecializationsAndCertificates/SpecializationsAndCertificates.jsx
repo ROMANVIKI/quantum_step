@@ -1,7 +1,8 @@
 import React from "react";
 import CertificateCard from "./CertificateCard";
 import Button from "./Button";
-import TechWomenPic from '../../assets/img/tech-women.svg'
+import { useSpring, animated } from "@react-spring/web";
+import TechWomenPic from "../../assets/img/tech-women.svg";
 
 const certificatesData = [
   {
@@ -21,6 +22,11 @@ const certificatesData = [
 ];
 
 function SpecializationsAndCertificates() {
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: { duration: 1000 },
+  });
   return (
     <section className="flex flex-col justify-center px-4 py-8 max-w-full hidden max-sm:block">
       <header className="flex flex-col items-center text-center mb-6">
@@ -40,14 +46,33 @@ function SpecializationsAndCertificates() {
           <CertificateCard key={index} {...certificate} />
         ))}
       </div>
-      {/* <div className="flex flex-col items-center mt-4 w-full"> */}
-        {/* <Button primary>Show 8 more</Button>
-        <Button secondary className="mt-2">View all</Button> */}
-      {/* </div> */}
-      <div className="flex flex-col items-center mt-6 w-full">
+      {/* <div className="flex flex-col items-center mt-4 w-full">
+        <Button primary>Show 8 more</Button>
+        <Button secondary className="mt-2">View all</Button>
+      </div> */}
+      <animated.div
+        style={fadeIn}
+        className="flex flex-col items-center text-center"
+      >
+        <h2 className="text-4xl font-extrabold leading-tight text-neutral-800 mb-4 max-md:text-3xl">
+          ZEN CLASS
+        </h2>
+        <div className="flex items-center gap-4 mb-6 max-md:gap-2">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e2895636ec1d39399e3b5d9292f0206527a1db8f6328c8212b3b227c1fbffd8?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
+            alt="Zen Class"
+            className="w-6 h-6 object-contain max-md:w-4 max-md:h-4"
+          />
+          <p className="text-lg font-medium text-neutral-600 max-md:text-base">
+            Live Classes + Placement Guidance
+          </p>
+        </div>
+      </animated.div>
+      <div>
         <img
           src={TechWomenPic}
-          className="h-auto w-44 md:w-56 lg:w-72 xl:w-80 rounded-full object-cover transition-transform transform hover:scale-105 duration-300"
+          className="w-80 h-auto max-md:w-50"
           alt="women picture"
         />
       </div>
