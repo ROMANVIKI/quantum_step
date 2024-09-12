@@ -28,15 +28,8 @@ const imageUrls = [data, laptop, js];
 function HomePage() {
   return (
     <Layout>
-      <div className="flex flex-col h-screen">
-        <div className="flex-grow">
           <ImageSlider images={imageUrls} />
-        </div>
-        <div className="flex-grow">
-          <TextGenerateEffect words={"Sharpen Your skills with tokaz"} />
-        </div>
-      </div>
-      <HeroSection />
+      {/* <HeroSection /> */}
       {/* <AccreditationSection /> */}
       <AboutSection />
       {/* <AwardsSection /> */}
@@ -59,3 +52,11 @@ function HomePage() {
 }
 
 export default HomePage;
+
+      // <div className="flex flex-col h-screen">
+      //   {/* <div className="flex-grow">
+      //   </div> */}
+      //   {/* <div className="flex-grow">
+      //     <TextGenerateEffect words={"Sharpen Your skills with tokaz"} />
+      //   </div> */}
+      // </div>
