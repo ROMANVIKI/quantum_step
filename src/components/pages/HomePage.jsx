@@ -40,11 +40,11 @@ function HomePage() {
       {/* <CoursesSection /> */}
 
       <DegreePrograms />
-      <GenAIStarted />
       {/* <ExpandableCardDemo/> */}
 
       {/* <LearnPracticeEarnSection /> */}
       <ZenClassSection />
+      <GenAIStarted />
       {/* <LearnersWorkSection /> */}
       {/* <CorporateSolutionsSection /> */}
       <AchievementsSection />

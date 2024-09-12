@@ -4,10 +4,10 @@ import GenAICard from "./GenAICard";
 
 const GenAIStarted = () => {
   const filters = [
-    { name: "Beginner", active: true },
+    { name: "SQL", active: true },
+    { name: "Placement", active: false },
+    // { name: "", active: false },
     { name: "Popular", active: false },
-    { name: "New", active: false },
-    { name: "Tools", active: false },
   ];
 
   const cards = [
@@ -57,6 +57,7 @@ const GenAIStarted = () => {
         </div>
       </div>
     </section>
+
   );
 };
 
