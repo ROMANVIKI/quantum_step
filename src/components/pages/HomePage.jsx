@@ -25,8 +25,6 @@ import GenAIStarted from "../../components/GenAIComponents/GenAIStarted";
 import ReactSlider from "../ReactSlider";
 import SpecializationsAndCertificates from "../SpecializationsAndCertificates/SpecializationsAndCertificates";
 
-
-
 const imageUrls = [data, laptop, js];
 
 function HomePage() {

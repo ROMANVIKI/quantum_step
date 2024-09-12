@@ -40,14 +40,14 @@ function SpecializationsAndCertificates() {
           <CertificateCard key={index} {...certificate} />
         ))}
       </div>
-      {/* <div className="flex flex-col items-center mt-4 w-full">
-        <Button primary>Show 8 more</Button>
-        <Button secondary className="mt-2">View all</Button>
-      </div> */}
-      <div>
+      {/* <div className="flex flex-col items-center mt-4 w-full"> */}
+        {/* <Button primary>Show 8 more</Button>
+        <Button secondary className="mt-2">View all</Button> */}
+      {/* </div> */}
+      <div className="flex flex-col items-center mt-6 w-full">
         <img
           src={TechWomenPic}
-          className="w-80 h-auto max-md:w-32"
+          className="h-auto w-44 md:w-56 lg:w-72 xl:w-80 rounded-full object-cover transition-transform transform hover:scale-105 duration-300"
           alt="women picture"
         />
       </div>
