@@ -22,8 +22,10 @@ import { TextGenerateEffect } from "../ui/text-generate-effect";
 import DegreePrograms from "../DegreePrograms/DegreePrograms";
 import { ExpandableCardDemo } from "../ui/standard-card";
 import GenAIStarted from "../../components/GenAIComponents/GenAIStarted";
-
 import ReactSlider from "../ReactSlider";
+import SpecializationsAndCertificates from "../SpecializationsAndCertificates/SpecializationsAndCertificates";
+
+
 
 const imageUrls = [data, laptop, js];
 
@@ -39,7 +41,9 @@ function HomePage() {
       <OfferingsSection />
       {/* <CoursesSection /> */}
 
-      <DegreePrograms />
+      <SpecializationsAndCertificates />
+
+      {/* <DegreePrograms /> */}
       {/* <ExpandableCardDemo/> */}
 
       {/* <LearnPracticeEarnSection /> */}
