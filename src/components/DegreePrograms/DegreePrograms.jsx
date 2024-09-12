@@ -1,7 +1,5 @@
-
-import React, {useState} from "react";
-import ProgramCard from './ProgramCard'
-
+import React, { useState } from "react";
+import ProgramCard from "./ProgramCard";
 
 const programs = [
   {
@@ -51,10 +49,14 @@ function DegreePrograms() {
 
   return (
     <section className="flex flex-col mt-8 items-center px-4 max-w-[1000px] mx-auto">
-      <div className="flex max-sm:hidden flex-col py-8 w-full text-center">
+      <div className="flex flex-col py-8 w-full text-center">
         <header className="mb-6">
-          <h1 className="font-semibold text-purple-950 text-xl">Degree Programs</h1>
-          <h2 className="mt-2 text-3xl font-bold">Get a head start on a degree today</h2>
+          <h1 className="font-semibold text-purple-950 text-xl">
+            Degree Programs
+          </h1>
+          <h2 className="mt-2 text-3xl font-bold">
+            Get a head start on a degree today
+          </h2>
           <p className="mt-2 text-lg text-slate-600">
             Build valuable skills and earn career credentials before enrolling.
           </p>
@@ -83,13 +85,13 @@ function DegreePrograms() {
           <div className="mt-8 text-left p-6 bg-gray-100 rounded-lg w-full">
             <h3 className="text-2xl font-bold">{selectedProgram.title}</h3>
             <p className="text-lg">{selectedProgram.university.name}</p>
-            <p className="text-sm text-slate-500 mt-2">Type: {selectedProgram.type}</p>
+            <p className="text-sm text-slate-500 mt-2">
+              Type: {selectedProgram.type}
+            </p>
           </div>
         )}
       </div>
-      <div>
-          
-      </div>
+      <div></div>
     </section>
   );
 }

@@ -29,6 +29,14 @@ function OfferingsSection() {
         What TOKAZ offers you?
       </h2>
       <div className="w-full flex flex-col md:flex-row gap-6">
+        <div className="flex-none w-full md:w-1/3 flex justify-center items-center">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b28fc56203300912f0d3878efa98702f3f402299de0d92648b7aa622671c21df?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
+            alt="TOKAZ offerings illustration"
+            className="w-full h-auto max-w-sm object-contain"
+          />
+        </div>
         <div className="flex-1 flex flex-col gap-6">
           {offerings.map((offering, index) => (
             <div
@@ -45,14 +53,6 @@ function OfferingsSection() {
               <span className="text-blue-600 font-semibold">{offering.link}</span>
             </div>
           ))}
-        </div>
-        <div className="flex-none w-full md:w-1/3 flex justify-center items-center">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/b28fc56203300912f0d3878efa98702f3f402299de0d92648b7aa622671c21df?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
-            alt="TOKAZ offerings illustration"
-            className="w-full h-auto max-w-sm object-contain"
-          />
         </div>
       </div>
     </section>
