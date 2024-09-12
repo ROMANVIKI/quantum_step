@@ -3,14 +3,14 @@ import SimpleImageSlider from "react-simple-image-slider";
 
 const ImageSlider = ({ images }) => {
   return (
-    <div className="relative w-screen h-[45vh] overflow-hidden flex items-center justify-center">
+    <div className="relative w-screen max-sm:h-[30vh] h-[45vh] overflow-hidden flex items-center justify-center">
       <SimpleImageSlider
         width={window.innerWidth}
-        height={window.innerHeight} // Set height based on viewport height
+        height={window.innerHeight} 
         images={images}
         showBullets={true}
         slideDuration={1}
-        showNavs={false}
+        showNavs={true}
         autoPlay={true}
         loop={true}
         className="w-screen  object-cover"

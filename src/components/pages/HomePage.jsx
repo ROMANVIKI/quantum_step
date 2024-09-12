@@ -23,12 +23,15 @@ import DegreePrograms from "../DegreePrograms/DegreePrograms";
 import { ExpandableCardDemo } from "../ui/standard-card";
 import GenAIStarted from "../../components/GenAIComponents/GenAIStarted";
 
+import ReactSlider from "../ReactSlider";
+
 const imageUrls = [data, laptop, js];
 
 function HomePage() {
   return (
     <Layout>
-          <ImageSlider images={imageUrls} />
+      <ImageSlider images={imageUrls} />
+      {/* <ReactSlider /> */}
       {/* <HeroSection /> */}
       {/* <AccreditationSection /> */}
       <AboutSection />
@@ -53,10 +56,10 @@ function HomePage() {
 
 export default HomePage;
 
-      // <div className="flex flex-col h-screen">
-      //   {/* <div className="flex-grow">
-      //   </div> */}
-      //   {/* <div className="flex-grow">
-      //     <TextGenerateEffect words={"Sharpen Your skills with tokaz"} />
-      //   </div> */}
-      // </div>
+// <div className="flex flex-col h-screen">
+//   {/* <div className="flex-grow">
+//   </div> */}
+//   {/* <div className="flex-grow">
+//     <TextGenerateEffect words={"Sharpen Your skills with tokaz"} />
+//   </div> */}
+// </div>
