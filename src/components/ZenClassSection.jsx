@@ -54,7 +54,7 @@ function ZenClassSection() {
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e2895636ec1d39399e3b5d9292f0206527a1db8f6328c8212b3b227c1fbffd8?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
             alt="Zen Class"
-            className="w-12 h-12 object-contain"
+            className="w-6 h-6 object-contain"
           />
           <p className="text-lg font-medium text-neutral-600">
             Live Classes + Placement Guidance
