@@ -19,6 +19,9 @@ import data from "../../assets/data.jpg";
 import laptop from "../../assets/laptop.jpg";
 import js from "../../assets/js.jpg";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
+import DegreePrograms from "../DegreePrograms/DegreePrograms";
+import { ExpandableCardDemo } from "../ui/standard-card";
+import GenAIStarted from "../../components/GenAIComponents/GenAIStarted";
 
 const imageUrls = [data, laptop, js];
 
@@ -30,11 +33,7 @@ function HomePage() {
           <ImageSlider images={imageUrls} />
         </div>
         <div className="flex-grow">
-          <TextGenerateEffect
-            words={
-              "Sharpen Your skills with tokaz"
-            }
-          />
+          <TextGenerateEffect words={"Sharpen Your skills with tokaz"} />
         </div>
       </div>
       <HeroSection />
@@ -42,7 +41,12 @@ function HomePage() {
       <AboutSection />
       {/* <AwardsSection /> */}
       <OfferingsSection />
-      <CoursesSection />
+      {/* <CoursesSection /> */}
+
+      <DegreePrograms />
+      <GenAIStarted />
+      {/* <ExpandableCardDemo/> */}
+
       {/* <LearnPracticeEarnSection /> */}
       <ZenClassSection />
       {/* <LearnersWorkSection /> */}
