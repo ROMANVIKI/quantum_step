@@ -61,9 +61,6 @@ function ZenClassSection() {
             Live Classes + Placement Guidance
           </p>
         </div>
-        <div>
-          <img src={TechWomenPic} className="w-80 h-auto max-md:w-32" alt="women picture" />
-        </div>
       </animated.div>
       <div className="flex flex-wrap gap-2 justify-center mt-8 max-md:mt-6 max-md:flex-col max-md:gap-4">
         {zenClasses.map((zenClass, index) => (

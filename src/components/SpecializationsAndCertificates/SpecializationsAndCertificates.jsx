@@ -1,6 +1,7 @@
 import React from "react";
 import CertificateCard from "./CertificateCard";
 import Button from "./Button";
+import TechWomenPic from '../../assets/img/tech-women.svg'
 
 const certificatesData = [
   {
@@ -39,9 +40,16 @@ function SpecializationsAndCertificates() {
           <CertificateCard key={index} {...certificate} />
         ))}
       </div>
-      <div className="flex flex-col items-center mt-4 w-full">
+      {/* <div className="flex flex-col items-center mt-4 w-full">
         <Button primary>Show 8 more</Button>
         <Button secondary className="mt-2">View all</Button>
+      </div> */}
+      <div>
+        <img
+          src={TechWomenPic}
+          className="w-80 h-auto max-md:w-32"
+          alt="women picture"
+        />
       </div>
     </section>
   );

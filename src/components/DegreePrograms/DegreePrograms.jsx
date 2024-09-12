@@ -48,7 +48,7 @@ function DegreePrograms() {
   const [selectedProgram, setSelectedProgram] = useState(null);
 
   return (
-    <section className="flex flex-col mt-8 items-center px-4 max-w-[1000px] mx-auto">
+    <section className="flex flex-col max-sm:hidden mt-8 items-center px-4 max-w-[1000px] mx-auto">
       <div className="flex flex-col py-8 w-full text-center">
         <header className="mb-6">
           <h1 className="font-semibold text-purple-950 text-xl">

@@ -34,10 +34,10 @@ const GenAIStarted = () => {
       <div className="flex flex-col justify-center items-center w-full max-w-[334px] mx-auto">
         <header className="flex flex-col px-1 pt-1 pb-5 w-full text-neutral-900">
           <h1 className="w-full text-2xl font-semibold tracking-normal leading-tight text-center">
-            Get started with GenAI
+            Get started with TOKAZ
           </h1>
           <p className="mt-2 w-full text-sm leading-6 text-center">
-            Identify, develop, and execute impactful GenAI business strategies.
+            Identify, develop, and execute impactful TOKAZ's business strategies.
           </p>
         </header>
         <div className="flex flex-col items-center p-1 w-full min-h-[372px]">

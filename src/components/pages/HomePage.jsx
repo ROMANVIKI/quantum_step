@@ -43,7 +43,7 @@ function HomePage() {
 
       <SpecializationsAndCertificates />
 
-      {/* <DegreePrograms /> */}
+      <DegreePrograms />
       {/* <ExpandableCardDemo/> */}
 
       {/* <LearnPracticeEarnSection /> */}
