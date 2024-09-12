@@ -8,7 +8,7 @@ const ImageSlider = ({ images }) => {
         width={window.innerWidth}
         height={window.innerHeight} // Set height based on viewport height
         images={images}
-        showBullets={false}
+        showBullets={true}
         slideDuration={1}
         showNavs={false}
         autoPlay={true}
