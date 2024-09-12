@@ -47,8 +47,8 @@ function HomePage() {
       {/* <ExpandableCardDemo/> */}
 
       {/* <LearnPracticeEarnSection /> */}
-      <ZenClassSection />
       <GenAIStarted />
+      <ZenClassSection />
       {/* <LearnersWorkSection /> */}
       {/* <CorporateSolutionsSection /> */}
       <AchievementsSection />

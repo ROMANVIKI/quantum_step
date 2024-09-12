@@ -1,6 +1,7 @@
 import React from "react";
 import { useSpring, animated } from '@react-spring/web';
 import ZenClassCard from "./ZenClassCard";
+import TechWomenPic from '../assets/img/tech-women.svg';
 
 const zenClasses = [
   {
@@ -44,33 +45,40 @@ function ZenClassSection() {
   });
 
   return (
-    <section className="flex flex-col items-center px-6 py-10 mt-10 max-w-full bg-gray-100 max-md:px-5 max-md:mt-10">
+    <section className="flex flex-col items-center px-6 py-10 mt-10 max-w-full bg-gray-100 max-md:px-4 max-md:py-8 max-md:mt-6">
       <animated.div style={fadeIn} className="flex flex-col items-center text-center">
-        <h2 className="text-4xl font-extrabold leading-tight text-neutral-800 mb-4">
+        <h2 className="text-4xl font-extrabold leading-tight text-neutral-800 mb-4 max-md:text-3xl">
           ZEN CLASS
         </h2>
-        <div className="flex items-center gap-4 mb-6">
+        <div className="flex items-center gap-4 mb-6 max-md:gap-2">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/1e2895636ec1d39399e3b5d9292f0206527a1db8f6328c8212b3b227c1fbffd8?placeholderIfAbsent=true&apiKey=f22fb14ac5c9489cb8e97f6f25e87b13"
             alt="Zen Class"
-            className="w-6 h-6 object-contain"
+            className="w-6 h-6 object-contain max-md:w-4 max-md:h-4"
           />
-          <p className="text-lg font-medium text-neutral-600">
+          <p className="text-lg font-medium text-neutral-600 max-md:text-base">
             Live Classes + Placement Guidance
           </p>
         </div>
+        <div>
+          <img src={TechWomenPic} className="w-80 h-auto max-md:w-32" alt="women picture" />
+        </div>
       </animated.div>
-      <div className="flex flex-wrap gap-6 justify-center max-md:flex-col">
+      <div className="flex flex-wrap gap-2 justify-center mt-8 max-md:mt-6 max-md:flex-col max-md:gap-4">
         {zenClasses.map((zenClass, index) => (
-          <animated.div key={index} style={fadeIn} className="flex flex-col items-center w-full max-w-xs bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105">
+          <animated.div
+            key={index}
+            style={fadeIn}
+            className="flex flex-col items-center w-full max-w-xs bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105 max-md:transform-none"
+          >
             <ZenClassCard {...zenClass} />
           </animated.div>
         ))}
       </div>
       <animated.button
         style={buttonSpring}
-        className="px-6 py-3 mt-12 text-lg font-semibold text-white bg-indigo-600 rounded-lg border border-indigo-700 shadow-lg transition-transform duration-300 ease-in-out hover:bg-indigo-700 hover:shadow-xl"
+        className="px-6 py-3 mt-12 text-lg font-semibold text-white bg-indigo-600 rounded-lg border border-indigo-700 shadow-lg transition-transform duration-300 ease-in-out hover:bg-indigo-700 hover:shadow-xl max-md:mt-8 max-md:py-2 max-md:text-base"
       >
         Explore More Programs
       </animated.button>

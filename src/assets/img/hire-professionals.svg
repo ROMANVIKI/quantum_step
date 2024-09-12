@@ -1,0 +1,28 @@
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_1_1940)">
+<mask id="mask0_1_1940" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<rect width="45" height="45" transform="translate(0.109375 0.84375)" fill="url(#pattern0_1_1940)"/>
+</mask>
+<g mask="url(#mask0_1_1940)">
+<path d="M0.109375 8.84375C0.109375 4.42547 3.6911 0.84375 8.10938 0.84375H37.1094C41.5277 0.84375 45.1094 4.42547 45.1094 8.84375V37.8438C45.1094 42.262 41.5277 45.8438 37.1094 45.8438H8.10937C3.6911 45.8438 0.109375 42.262 0.109375 37.8438V8.84375Z" fill="url(#paint0_linear_1_1940)"/>
+<path d="M0.109375 8.84375C0.109375 4.42547 3.6911 0.84375 8.10938 0.84375H37.1094C41.5277 0.84375 45.1094 4.42547 45.1094 8.84375V37.8438C45.1094 42.262 41.5277 45.8438 37.1094 45.8438H8.10937C3.6911 45.8438 0.109375 42.262 0.109375 37.8438V8.84375Z" fill="url(#pattern1_1_1940)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0_1_1940" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_1940" transform="scale(0.03125)"/>
+</pattern>
+<pattern id="pattern1_1_1940" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_1940" transform="scale(0.03125)"/>
+</pattern>
+<linearGradient id="paint0_linear_1_1940" x1="0.109375" y1="0.84375" x2="45.1094" y2="45.8438" gradientUnits="userSpaceOnUse">
+<stop stop-color="#016625"/>
+<stop offset="0.5031" stop-color="#21A751"/>
+<stop offset="1" stop-color="#189946"/>
+</linearGradient>
+<clipPath id="clip0_1_1940">
+<rect width="45" height="45" fill="white" transform="translate(0.109375 0.84375)"/>
+</clipPath>
+<image id="image0_1_1940" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAShJREFUWEftle8NgjAQxe+FBWACHcVNhEmESXQU3UQnwAFIzlwCyaW09qj88QP9CNe+X9+7tqCNBzbWpx1gd2AxB9q2zYuieMeafDGArutKAIcsy5pvEIsBMHNJRFciqgEEIdYAEAOCEEkAzHwiomMkX6k5qxovRCrAzVk81mvD/xHE2gANgFrTpgKkRDASFxATADPnAKJnWu9MnQL57BU3ATDzhYheACR381AAQfEoQC8umVWJAEc3c3cHwQiUuMxJATDF5gVwxAVA7H9E/H8CuJsz6gtHAB5x65o3AJW1eKjzAUjm0nhTxzwAosrMLsR6EQzbdiAmN6HVvq8XkYLYBkDFIR0+6SKaxQEVh+lMW0V/foxShEJzTI/RnILmq3hJ0T2Cv3LgA2W9diH1pxvnAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>

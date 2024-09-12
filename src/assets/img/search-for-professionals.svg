@@ -1,0 +1,28 @@
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_1_1934)">
+<mask id="mask0_1_1934" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="46" height="46">
+<rect width="45" height="45" transform="translate(0.109375 0.84375)" fill="url(#pattern0_1_1934)"/>
+</mask>
+<g mask="url(#mask0_1_1934)">
+<path d="M0.109375 8.84375C0.109375 4.42547 3.6911 0.84375 8.10938 0.84375H37.1094C41.5277 0.84375 45.1094 4.42547 45.1094 8.84375V37.8438C45.1094 42.262 41.5277 45.8438 37.1094 45.8438H8.10937C3.6911 45.8438 0.109375 42.262 0.109375 37.8438V8.84375Z" fill="url(#paint0_linear_1_1934)"/>
+<path d="M0.109375 8.84375C0.109375 4.42547 3.6911 0.84375 8.10938 0.84375H37.1094C41.5277 0.84375 45.1094 4.42547 45.1094 8.84375V37.8438C45.1094 42.262 41.5277 45.8438 37.1094 45.8438H8.10937C3.6911 45.8438 0.109375 42.262 0.109375 37.8438V8.84375Z" fill="url(#pattern1_1_1934)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0_1_1934" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_1934" transform="scale(0.03125)"/>
+</pattern>
+<pattern id="pattern1_1_1934" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_1_1934" transform="scale(0.03125)"/>
+</pattern>
+<linearGradient id="paint0_linear_1_1934" x1="0.109375" y1="0.84375" x2="45.1094" y2="45.8438" gradientUnits="userSpaceOnUse">
+<stop stop-color="#016625"/>
+<stop offset="0.5031" stop-color="#21A751"/>
+<stop offset="1" stop-color="#189946"/>
+</linearGradient>
+<clipPath id="clip0_1_1934">
+<rect width="45" height="45" fill="white" transform="translate(0.109375 0.84375)"/>
+</clipPath>
+<image id="image0_1_1934" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAi1JREFUWEftVoFNHDEQnKkASggdQAdJBYEKgAoSKgAqCFQAVABUwHeQ7yDfQaCCQYN2T35z3PmePK9IWDr963z2jmdnZ01seHDD8fEJ4P9iQNI+gO+hmycAFyQX79FREwOSvgB4AODfehjEyaogRgGMBM+4K4NoAXAN4DAizQCckJxHOn4VrHwj6flJowXAbwC7AJzrPZKPGUHS10iNX12S/DkpOjDuA5IUm96TtAiXRjF/TfJ4HQD+AtgGMCe5VwYIffyJd2tjwOo31R5nJM/9R5JBXQFIVo5I3qyDgTLP3n8ejwMbhMeC5M7U4P5+VIRx2qM4bV8Mi9MVsJIhNQEIEDahs3BCn9wBTbk9oKuMqSw0AxjbOEryNEr2RbTxnA+x808ASLJR2bAmp6gZQKjeafDzmK5XlWKK1OmxeWXveFOkgwCC1uyAZSPqal5SadWm2zrJMr0tSnif5H1N0SsAcdIfAGyrWWb1umOSL5RLGjIqs2Ar9+h1yiUAA53PlLrRWFi+B8xSWGNWPDZfA7CtJtUurcsI9maXk5Rr/P1O1aycPqfBo9eqOwBVZ3PAg5b6luScu/w87qJdL2I/W3UeyOBemVUJYMjtag10pw3NOM99t6VyXddHyperAvAepeKHrmyDIOoU5M1nzPhyfsnlJJlFK38rxOqUuJllirxuiYlmI2pF1PddpRN/4puVK6qtG74neK4tQHQe8qEAwrR28+QJ7ENSMMTgxgE8A+9H9CGmmxOXAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
